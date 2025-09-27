@@ -38,6 +38,11 @@ Visit the website to play the entire game with full functionality:
 https://chota-predictions.onrender.com
 ```
 
+You can also visit it on itch.io:
+```
+https://aintadev.itch.io/chota-predictions
+```
+
 ## Notes
 
 - Predictions are purely for fun and humor.  
