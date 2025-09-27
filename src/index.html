@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chota Predictions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controls">
+        <button id="themeToggle" class="toggle-btn">Dark Mode</button>
+        <button id="langToggle" class="toggle-btn">Hinglish</button>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Chota Predictions</h1>
+            <p class="subtitle">Type your wish and see if the universe is on your side!</p>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="userInput">Your Wish</label>
+            <input type="text" id="userInput" class="form-input" placeholder="Enter something you want to do...">
+        </div>
+        <div class="form-group">
+            <label class="form-label">Choose Belief System</label>
+            <div class="belief-grid">
+                <div class="belief-option" data-belief="astrology">Astrology</div>
+                <div class="belief-option" data-belief="aukatism">Aukatism</div>
+                <div class="belief-option" data-belief="chotist">Chotist</div>
+                <div class="belief-option" data-belief="gambler">Gambler</div>
+                <div class="belief-option" data-belief="random">Random</div>
+                <div class="belief-option" data-belief="philosopher">Philosopher</div>
+            </div>
+        </div>
+        <button id="predictBtn" class="predict-btn" disabled>Predict</button>
+        <div id="result" class="result-container">
+            <p class="result-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
