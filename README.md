@@ -1,4 +1,4 @@
-# Chota Predictions 🎉🔮
+# Chota Predictions 
 
 Chota Predictions is a humorous, interactive browser game where you type a wish or goal and see if the universe is on your side. With a variety of belief systems, Hinglish/Banglish language support, and hilarious randomized predictions, it guarantees fun and laughter!  
 
@@ -33,9 +33,10 @@ Chota Predictions is a humorous, interactive browser game where you type a wish 
 
 ## Setup
 
-1. Clone or download the repository.  
-2. Open `index.html` in any modern browser.  
-3. Enjoy predicting your fate!  
+Visit the website to play the entire game with full functionality:
+```
+https://chota-predictions.onrender.com
+```
 
 ## Notes
 
